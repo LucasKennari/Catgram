@@ -16,7 +16,7 @@ body {
 
   --background-color-first: #191d3a;
   font-family: var(--type-first);
-  background: url("../IMG/background/background1.png");
+  background: url("./imgs/background/background1.png");
   background-color: #1f2326;
 }
 

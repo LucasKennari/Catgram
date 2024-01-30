@@ -1,0 +1,29 @@
+.btnForm {
+  display: grid;
+}
+.lgnLink {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  margin-left: 8px;
+  padding: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: rgb(37, 37, 37);
+  background-color: aliceblue;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.subtitle {
+  margin-top: 16px;
+  color: #e1e1fd;
+}
+.btnLogin {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}

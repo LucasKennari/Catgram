@@ -1,0 +1,70 @@
+.modalContainer {
+          height: 100vh;
+          width: 100%;
+          background: #1f23268a;
+          /* background: rgba(255, 255, 255, 0.5); => versao light*/
+        
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 2000;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          backdrop-filter: blur(3px);
+        }
+        
+        .modal {
+          display: grid;
+          grid-column: auto;
+          align-items: center;
+          justify-items: center;
+          min-width: 300px;
+          background-color: transparent;
+          backdrop-filter: blur(2px);
+        
+          padding: 3.2rem;
+          border: 1px solid #6f43c0;
+          box-shadow: 0 0 40px 0.1px rgba(22, 22, 22, 0.347);
+          position: relative;
+          border-radius: 15px;
+        }
+        
+        .fechar {
+          margin: 5px;
+          padding: 5px;
+          background: none;
+          width: 25px;
+          height: 25px;
+          top: 7px;
+          right: 5px;
+          position: absolute;
+          border-radius: 50%;
+          border: none;
+          cursor: pointer;
+          font-size: 1.2rem;
+          font-weight: bold;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          color: rgba(150, 150, 150, 0.51);
+        }
+        .fechar:hover {
+          color: rgb(202, 201, 201);
+        }
+        
+        .animeTop {
+          transform: translateZ(20px);
+          opacity: 0;
+          animation: animeTop 0.5s forwards;
+        }
+        
+        @keyframes animeTop {
+          to {
+            transform: initial;
+            opacity: initial;
+          }
+        }
+        :global(.ativo) {
+          display: flex;
+        }
+        

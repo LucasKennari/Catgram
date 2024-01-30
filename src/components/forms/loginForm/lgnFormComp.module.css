@@ -1,0 +1,50 @@
+.lgnFormComp {
+  display: grid;
+
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+/* .iconLogin {
+  width: 80px;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+} */
+
+.formLink {
+  justify-content: center;
+  margin-top: 0.875rem;
+}
+.resetPass {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-weight: normal;
+  display: grid;
+  justify-content: center;
+  line-height: 1px;
+  color: #b0bbc4;
+}
+.registerdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.register {
+  position: relative;
+  top: 1px;
+  padding-left: 4px;
+  text-decoration: underline;
+
+  font-weight: normal;
+  /* border-bottom: 1px solid #b0bbc4; */
+  color: aliceblue;
+}
+
+.subtitle {
+  margin-top: 16px;
+  color: #e1e1fd;
+}

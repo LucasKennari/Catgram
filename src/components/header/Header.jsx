@@ -17,10 +17,10 @@ const Header = () => {
                     mod.current.classList.add('ativo')
           }
 
-          function handleLogout(event) {
-                    event.preventDefault()
-                    userLogout()
-          }
+          // function handleLogout(event) {
+          //           event.preventDefault()
+          //           userLogout()
+          // }
 
           return (
                     <div className={styles.divHeader}>
@@ -39,7 +39,6 @@ const Header = () => {
 
                                                                       {/* <UserIcon /> */}
 
-                                                                      {/* <AccOptions onClick={handleLogout}></AccOptions> */}
 
                                                             </NavLink> :
 

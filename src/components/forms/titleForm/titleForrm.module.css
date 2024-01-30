@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Playfair+Display+SC&display=swap");
+.titleForm {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-family: var(--type-seecond);
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}

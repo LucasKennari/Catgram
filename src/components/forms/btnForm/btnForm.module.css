@@ -1,0 +1,40 @@
+.btnLogin {
+  display: block;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  border: 1px solid #5e6fa3;
+  background-color: #6a4ea6;
+  color: aliceblue;
+  transition: 0.5s;
+}
+.btnLogin:hover,
+.btnLogin:focus {
+  outline: none;
+  border: 1px solid rgba(255, 254, 254, 0.777);
+  background-color: rgb(184, 184, 184);
+  color: #1c1c1c;
+  box-shadow: rgba(255, 255, 255, 0.196) 0px 0px 15px 0px;
+}
+
+.btnLogin:disabled {
+  opacity: 0.5;
+  cursor: wait;
+  box-shadow: rgba(255, 255, 255, 0.196) 0px 0px 15px 0px;
+  border: 1px solid rgba(255, 254, 254, 0.777);
+  background-color: rgb(123, 123, 123);
+}
+.lblInput {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}

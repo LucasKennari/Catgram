@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Playfair+Display+SC&display=swap");
+
+.title {
+  color: aliceblue;
+  font-family: "Afacad", sans-serif;
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
