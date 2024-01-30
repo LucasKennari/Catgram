@@ -1,4 +1,5 @@
 import React from 'react'
+import "./app.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { UserStorage } from './useHooks/useContext'
 import Header from './components/header/Header'

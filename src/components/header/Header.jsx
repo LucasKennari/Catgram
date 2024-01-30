@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './header.module.css'
 import { userContext } from '../../useHooks/useContext'
 import { NavLink } from 'react-router-dom'
-
+import IconHeader from "../../imgs/icons/iconHeader/iconHeader.svg?react"
 const Header = () => {
 
           const [menu, setMenu] = React.useState(false)
@@ -30,7 +30,7 @@ const Header = () => {
                                                   <NavLink to="/" end
                                                             aria-label='Catgram - Home'
                                                             className={styles.logo}>
-                                                            {/* <Cat /> */}
+                                                            <IconHeader />
                                                   </NavLink>
 
                                                   {data ?

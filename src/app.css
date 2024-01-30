@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 3rem;
+  margin: 0px;
+  color: #333;
+
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-seecond: "Spectral", Georgia;
+  --type-three: "Afacad", sans-serif;
+  --type-font-input: "Inconsolata", monospace;
+
+  --background-color-first: #191d3a;
+  font-family: var(--type-first);
+  background: url("../IMG/background/background1.png");
+  background-color: #1f2326;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  color: #333;
+}
+.title {
+  color: aliceblue;
+  font-family: var(--type-font-input);
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+.ErrorParagrafo {
+  font-size: 1.5rem;
+  font-family: var(--type-font-input);
+  color: #dd0e0e;
+
+  font-weight: bold;
+  text-decoration: underline;
+}
+.container {
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.mainContainer {
+  margin-top: 3rem;
+}
+
+a {
+  font-family: var(--type-three);
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.iconLogin {
+  color: white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animeParaEsquerda {
+  transform: transition(-30px);
+  opacity: 0;
+  animation: animeParaEsquerda 0.7s forwards;
+}
+
+@keyframes animeParaEsquerda {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+
+ .animeParaDireita {
+          transform: transition(20px);
+          opacity: 1;
+          animation: animeParaDireita 0.7s forwards;
+        }
+        
+
+@keyframes animeParaDireita {
+  from {
+    transform: 0;
+    opacity: 0;
+  }
+} 
+.App main{
+          display: flex;
+          flex-direction:column;
+          min-height:  calc(100vh + 10rem);
+}
+.AppBody{
+          flex: 1;
+}
