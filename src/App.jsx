@@ -10,6 +10,7 @@ import Footer from './components/footer/Footer'
 import Login from './components/rotasLogin/login/Login'
 import ProtectedRouter from './components/helper/protectedRouter/ProtectedRouter'
 import User from './components/userAccount/user/User'
+import Home from './home/Home'
 
 const App = () => {
 
@@ -20,8 +21,8 @@ const App = () => {
                                                   <Header />
                                                   <main className='AppBody'>
                                                             <Routes>
-                                                                      {/* <Route path='/' end
-                                                                                element={<Home />} />  */}
+                                                                      <Route path='/' end
+                                                                                element={<Home />} />
 
                                                                       <Route path='login/*'
                                                                                 element={<Login />} />
