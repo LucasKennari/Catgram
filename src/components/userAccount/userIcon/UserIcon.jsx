@@ -1,7 +1,8 @@
 import React from 'react'
 import UserHeaderNav from '../userHeaderNav/UserHeaderNav'
 import styles from './userIcon.module.css'
-import Icon from '../../../imgs/icons/iconUsuario/iconUsuario.svg?react'
+import IconPerfil from '../../../assets/icons/iconsNav/iconPerfil.svg?react'
+
 const UserIcon = () => {
 
           const [menu, setMenu] = React.useState(false)
@@ -18,7 +19,7 @@ const UserIcon = () => {
                     <>
                               {menu ? <UserHeaderNav /> :
                                         (<div className={styles.UserIcon}>
-                                                  <Icon onClick={handleClick} />
+                                                  <IconPerfil onClick={handleClick} />
                                         </div>)
                               }
                     </>

@@ -1,0 +1,14 @@
+.title {
+          color: aliceblue;
+          font-size: 2rem;
+        }
+        .userHeader {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          align-items: center;
+          padding-left: 5rem;
+          margin-top: 3rem;
+          margin-bottom: 2rem;
+          position: relative;
+        }
+        
