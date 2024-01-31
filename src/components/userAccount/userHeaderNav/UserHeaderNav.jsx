@@ -3,6 +3,13 @@ import styles from "./userHeaderNav.module.css"
 import { NavLink, useNavigate } from 'react-router-dom'
 import { userContext } from '../../../useHooks/useContext'
 
+
+import Feed from '../../../assets/icons/iconsNav/feed.svg?react'
+import Adicionar from '../../../assets/icons/iconsNav/adicionar.svg?react'
+import Perfil from '../../../assets/icons/iconsNav/iconPerfil.svg?react'
+import Sair from '../../../assets/icons/iconsNav/sair.svg?react'
+import UserIcon from '../userIcon/UserIcon'
+
 const UserHeaderNav = () => {
           const navigate = useNavigate()
           const { userLogout } = React.useContext(userContext)
@@ -26,10 +33,15 @@ const UserHeaderNav = () => {
           return (
                     <>
 
-                              {menu ? <nav id='userHeadNav' className={`${styles.headerNaV} animeParaEsquerda`}>
+                              {menu ? <nav id='userHeadNav'
+                                        className={`${styles.headerNaV} animeParaEsquerda`}>
                                         <button onClick={handleMenu} >
-                                                  <img src="IMG\icons\seta.svg" alt="" className={styles.btnImg} />
+                                                  <img src="src\assets\icons\iconsNav\seta.svg"
+                                                            alt=""
+                                                            className={styles.btnImg} />
+
                                         </button>
+
                                         <NavLink to='/conta' end>
                                                   <Feed />
                                                   {mobile && 'Minhas Fotos'}
