@@ -1,0 +1,20 @@
+.modalContainer {
+          position: fixed;
+          width: 100vw;
+          height: 100vh;
+          top: 0px;
+          left: 0px;
+          background: #1f23268a;
+          display: flex;
+          z-index: 1000;
+          padding: 2rem calc(4rem + 15px) 2rem 4rem;
+          justify-content: center;
+          align-items: center;
+          backdrop-filter: blur(2px);
+        }
+        @media (max-width: 40rem) {
+          .modall {
+            padding: 2rem calc(2rem + 15px) 2rem 2rem;
+          }
+        }
+        
