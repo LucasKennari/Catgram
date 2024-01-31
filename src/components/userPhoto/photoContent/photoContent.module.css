@@ -85,7 +85,7 @@
           width: 16px;
           height: 10px;
           margin-right: 0.5rem;
-          background: url("../../../Assets/visualizacao.svg") no-repeat;
+          background: url("../../../assets/icons/iconPhotoPreview/visualizacao.svg") no-repeat;
         }
         .attributes {
           color: aliceblue;
