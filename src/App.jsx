@@ -8,12 +8,11 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 
 import Login from './components/rotasLogin/login/Login'
+import ProtectedRouter from './components/helper/protectedRouter/ProtectedRouter'
+import User from './components/userAccount/user/User'
 
 const App = () => {
 
-          // return (
-          //           <Api />
-          // )
           return (
                     <div className='App'>
                               <BrowserRouter>
@@ -22,19 +21,21 @@ const App = () => {
                                                   <main className='AppBody'>
                                                             <Routes>
                                                                       {/* <Route path='/' end
-                                                                                element={<Home />} /> */}
+                                                                                element={<Home />} />  */}
 
                                                                       <Route path='login/*'
                                                                                 element={<Login />} />
-                                                                      {/* 
-                                                                      <Route path='/conta/*'
-                                                                                element={<ProtectedRoute>
-                                                                                          <User />
-                                                                                </ProtectedRoute>} />
 
-                                                                      <Route path='/foto/:id' element={<Photo />} />
+                                                                      <Route path='/conta/*'
+                                                                                element={
+                                                                                          <ProtectedRouter>
+                                                                                                    <User />
+                                                                                          </ProtectedRouter>
+                                                                                } />
+
+                                                                      {/* <Route path='/foto/:id' element={<Photo />} />
                                                                       <Route path='/perfil/:user' element={<UserProfile />} />
-                                                                      <Route path='/*' element={<NotFound />} />  */}
+                                                                      <Route path='/*' element={<NotFound />} />   */}
                                                             </Routes>
 
                                                             {/* <ChatComponents /> */}
