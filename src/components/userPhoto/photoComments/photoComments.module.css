@@ -1,0 +1,14 @@
+.comments {
+          color: hsl(208, 100%, 97%);
+          word-break: break-word;
+          overflow-y: auto;
+          padding: 0 1rem;
+        }
+        .single.comments {
+          padding: 0px;
+        }
+        .comments li {
+          margin-bottom: 0.5rem;
+          line-height: 1.2;
+        }
+        

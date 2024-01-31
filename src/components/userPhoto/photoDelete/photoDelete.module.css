@@ -1,0 +1,22 @@
+.btnDelete {
+          padding: 0.2rem 0.25rem;
+          outline: none;
+          border-radius: 5px;
+          background: #383737;
+          color: #e1e1e1;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          font-weight: normal;
+          font-size: 1.1rem;
+          border: 2px solid #d3d3d3;
+          font-family: var(--type-three);
+        
+          cursor: pointer;
+        }
+        .btnDelete:hover {
+          outline: none;
+          border: 1px solid rgba(255, 254, 254, 0.777);
+          background-color: rgb(184, 184, 184);
+          color: #1c1c1c;
+          box-shadow: rgba(255, 255, 255, 0.196) 0px 0px 15px 0px;
+        }
+        
