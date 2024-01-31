@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './'
+import styles from './FeedPhotosItem.module.css'
 import ImgSkeleton from '../../helper/imgSkeleton/ImgSkeleton'
 const FeedPhotosItem = ({ photo, setModalPhoto }) => {
           function handleClick() {
