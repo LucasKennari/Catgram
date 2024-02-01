@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './LoginCreate.module.css'
+import styles from './loginCreate.module.css'
 import Modal from '../../modal/Modal'
 import RegisterForm from '../../forms/registerForrm/RegisterForm'
 const LoginCreate = () => {
