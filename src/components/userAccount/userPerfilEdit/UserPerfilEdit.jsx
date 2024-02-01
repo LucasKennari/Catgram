@@ -6,7 +6,7 @@ const UserPerfilEdit = () => {
           return (
                     <section>
                               <Head title="Editar o perfil" />
-                              <div className={`${styles.perfil} container`}>
+                              <div className={`${styles.perfil} container mainContainer`}>
                                         <h5 className='title'>Perfil</h5>
                                         <div className={styles.informacoes}>
                                                   <InputForm texto='Usuário' />

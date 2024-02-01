@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./registerrForm.module.css"
+import styles from "./registerForm.module.css"
 import { userContext } from '../../../useHooks/useContext'
 import useForm from '../../../useHooks/useForm'
 import { USER_POST } from '../../../api/api'

@@ -9,7 +9,7 @@ import Adicionar from '../../../assets/icons/iconsNav/adicionar.svg?react'
 import Perfil from '../../../assets/icons/iconsNav/iconPerfil.svg?react'
 import Sair from '../../../assets/icons/iconsNav/sair.svg?react'
 import UserIcon from '../userIcon/UserIcon'
-
+import CloseMenu from '../../../assets/icons/iconsNav/closeMenu.svg?react'
 const UserHeaderNav = () => {
           const navigate = useNavigate()
           const { userLogout } = React.useContext(userContext)
@@ -36,10 +36,11 @@ const UserHeaderNav = () => {
                               {menu ? <nav id='userHeadNav'
                                         className={`${styles.headerNaV} animeParaEsquerda`}>
                                         <button onClick={handleMenu} >
-                                                  <img src="src\assets\icons\iconsNav\seta.svg"
-                                                            alt=""
-                                                            className={styles.btnImg} />
+                                                  <CloseMenu className={styles.btnImg} />
 
+                                                  {/* <img src="src/assets/icons/iconsNav/seta.svg"
+                                                            alt=""
+                                                            className={styles.btnImg} /> */}
                                         </button>
 
                                         <NavLink to='/conta' end>

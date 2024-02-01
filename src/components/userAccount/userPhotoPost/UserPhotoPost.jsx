@@ -58,7 +58,7 @@ const UserPhotoPost = () => {
 
           return (<>
 
-                    <section className={`${styles.photoPost} animeLeft`} >
+                    <section className={`${styles.photoPost} container mainContainer animeLeft`} >
 
                               <Head title="Poste sua foto" />
 
