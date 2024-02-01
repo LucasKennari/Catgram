@@ -1,6 +1,6 @@
 import React from 'react'
 import useFetch from '../../../useHooks/useFetch'
-import styles from './PhotoCommentsForm.module.css'
+import styles from './photoCommentsForm.module.css'
 import { toast } from 'react-toastify'
 import { COMMENT_POST } from '../../../api/api'
 import Enviar from '../../../assets/icons/iconPhotoComments/enviar.svg?react'
