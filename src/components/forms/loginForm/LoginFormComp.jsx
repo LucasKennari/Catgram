@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './lgnFormComp.module.css'
+import styles from './loginFormComp.module.css'
 import { userContext } from '../../../useHooks/useContext'
 import useForm from '../../../useHooks/useForm'
 import InputForm from '../inputForm/InputForm'
