@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './photoComments.module.css'
 import { userContext } from '../../../useHooks/useContext'
+import PhotoCommentsForm from '../photoCommentsForm/PhotoCommentsForm'
 const PhotoComments = ({ props }) => {
           const [comments, setComments] = React.useState(() => props.comments)
           const commentsSection = React.useRef(null)
@@ -23,10 +24,10 @@ const PhotoComments = ({ props }) => {
                               })}
                     </ul>
                     <div>
-                              {/* {login && <PhotoCommentsForm
+                              {login && <PhotoCommentsForm
                                         id={props.id}
                                         single={props.single}
-                                        setComments={setComments} />} */}
+                                        setComments={setComments} />}
                     </div>
           </>
           )

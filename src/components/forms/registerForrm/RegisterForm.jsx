@@ -9,6 +9,8 @@ import InputForm from '../inputForm/InputForm'
 import BtnForm from '../btnForm/BtnForm'
 import { Link } from 'react-router-dom'
 import Loading from '../../helper/loading/Loading'
+import Head from '../../helper/head/Head'
+import TitleForm from '../titleForm/TitleForm'
 
 const RegisterForm = () => {
           const { userLogin } = React.useContext(userContext)
@@ -42,7 +44,7 @@ const RegisterForm = () => {
           }
           return (
                     <section>
-                              {/* <Head title="Cadastrar-se" /> */}
+                              <Head title="Cadastrar-se" />
 
                               {error && <ToastContainer
                                         position="top-center"
@@ -58,7 +60,7 @@ const RegisterForm = () => {
                                         theme='dark' />}
                               <form onSubmit={handleSubmit}>
 
-                                        {/* <TitleForm>Cadastro</TitleForm> */}
+                                        <TitleForm>Cadastro</TitleForm>
 
                                         <InputForm texto="Username" name='username' type='text' requerid {...username} />
                                         <InputForm texto="Email" name='email' type='email' requerid {...email} />

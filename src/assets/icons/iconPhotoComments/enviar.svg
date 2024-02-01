@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="40" height="40">
+	<title>enviar</title>
+	<defs>
+		<image  width="59" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA4CAMAAAB0b3AvAAAAAXNSR0IB2cksfwAAAaFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////4IdtcAAAAIt0Uk5TAAQVEovUmTQGAv7/66NGCNPwrVAP97tYFLT5xWAXc/rPHAE/9PzVgCoa1uGJMQWx6J03eOylS++vUQwY9rlbrsdhGXX70G4eSP3XIx/e3Y4zAwewlDhw7apDCiDyShtXuhEucr7CZjyR0Vqs5tl5JStt898sQuSKFqjjJGrN2FPn2oQmdNKzyYwTjRaRsQEAAAG9SURBVHicrddlVwJBFAbgFUFhr5hgoIBSFi4oKgYWYmChqNjd3Yrd+asFP3jwMDuzzHi/P2dn5524w3FckkyWxNFVslyhSElV0lCVnAeANHV6RuJWlgk/lZWdo6G1ANrcvPzErLIAfktXWKRPCBsgpozFhhKTdGu2xGKw2krLVFJteQX8Lb7SXiVIs4ID4spZXSMtcFe8BaitM0sJvF6LwuBuaGwi2mYF0gJ4WlplpB9uE7GRwNs7vPjIOkUtgK+ruwenez0YDP6+0n7xwAcGcTaihwLDIyI2OIq3kXKOjQfROES0ABOTU9MoOxPoM5L1rGMOFbhqfkHt5Inasli0hPq2sLyy6iZq3dp6OTKypo3NTB1J+7ZCM0ht0m/v7JLG7t/bP0AHHjw8WjsmaP4kcCoSuOZM3kWYd/78IozG0bFfXlnx3C6+zIXrm1s/zt55/9/Sj5l6rqgzMjXfqx+Ia+Px6TlubVCvSeq9wLAHWfY+w5nDctaxnLEsZ/sLRvpeXbg7heUuY7lDWe5uhp6BpVdh6ZFYejOGnlD5FhPn+1FCvWiYoQdm6b1VH/Q9P/f5ZbNRvjWib5ww3RvnG88tjRwsxUwyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="8" y="8"/>
+</svg>

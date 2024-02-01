@@ -11,6 +11,9 @@ import Login from './components/rotasLogin/login/Login'
 import ProtectedRouter from './components/helper/protectedRouter/ProtectedRouter'
 import User from './components/userAccount/user/User'
 import Home from './home/Home'
+import Photo from './components/userPhoto/photo/Photo'
+import UserProfile from './components/userAccount/userProfile/UserProfile'
+import Notfound from './components/helper/notFound/Notfound'
 
 const App = () => {
 
@@ -34,9 +37,9 @@ const App = () => {
                                                                                           </ProtectedRouter>
                                                                                 } />
 
-                                                                      {/* <Route path='/foto/:id' element={<Photo />} />
+                                                                      <Route path='/foto/:id' element={<Photo />} />
                                                                       <Route path='/perfil/:user' element={<UserProfile />} />
-                                                                      <Route path='/*' element={<NotFound />} />   */}
+                                                                      <Route path='/*' element={<Notfound />} />
                                                             </Routes>
 
                                                             {/* <ChatComponents /> */}

@@ -1,0 +1,53 @@
+.form {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          align-items: stretch;
+          margin: 1rem;
+        }
+        
+        .single.form {
+          margin: 1rem 0;
+        }
+        .textarea {
+          font-weight: bold;
+          display: flex;
+          width: 100%;
+          border: none;
+          font-size: 1rem;
+          height: 60px;
+          resize: none;
+          font-family: var(--type-first);
+          border-radius: 0.3rem;
+          background: #dcdcdc5a;
+        }
+        
+        .textarea:hover,
+        .textarea:focus {
+          border: 2px solid aliceblue;
+          outline: none;
+          color: aliceblue;
+        }
+        
+        .textarea::placeholder {
+          opacity: 0.8;
+          font-weight: normal;
+          font-family: var(--type-font-input);
+          color: aliceblue;
+        }
+        .textarea::selection {
+          background-color: aliceblue;
+          color: rgb(39, 39, 39);
+        }
+        .enviar {
+          overflow: hidden;
+          list-style: none;
+          outline: none;
+          border: none;
+          background: transparent;
+          cursor: pointer;
+          padding: 0 1rem;
+          height: 60px;
+          /* background: url("../../../../IMG/commentIcons/paw_animal_dog_cat_icon_259764.svg")
+                      no-repeat center center; */
+        }
+        

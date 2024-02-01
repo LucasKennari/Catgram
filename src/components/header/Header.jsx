@@ -40,7 +40,6 @@ const Header = () => {
 
                                                                       <UserIcon />
 
-
                                                             </NavLink> :
 
                                                             <NavLink id='lgn' to="login" end
