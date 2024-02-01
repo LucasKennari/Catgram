@@ -1,14 +1,14 @@
 import React from 'react'
-import { ToastContainer, toast } from 'react-toastify'
-import { userContext } from '../../../useHooks/useContext'
-import { Navigate, useNavigate } from 'react-router-dom'
-import styles from './loginModal.module.css'
-import Modal from '../../modal/Modal'
+import styles from './loginForm.module.css'
 import Loading from '../../helper/loading/Loading'
-import LoginFormComp from '../../forms/loginForm/LoginFormComp'
+import { ToastContainer, toast } from 'react-toastify'
+import { Navigate, useNavigate } from 'react-router-dom'
+import { userContext } from '../../../useHooks/useContext'
 import Head from '../../helper/head/Head'
+import Modal from '../../modal/Modal'
+import LoginFormComp from '../../forms/loginForm/LoginFormComp'
+const LoginForm = () => {
 
-const LoginModal = () => {
           React.useEffect(() => {
                     const mod = document.getElementById('lgnModal')
                     mod.classList.add('ativo')
@@ -58,4 +58,4 @@ const LoginModal = () => {
                     )
 }
 
-export default LoginModal
+export default LoginForm
