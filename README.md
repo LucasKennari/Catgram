@@ -30,3 +30,25 @@ O Catgram é uma Rede Social para gatos inspirado no Instagram.
 > **Acesse:** 
 > [Arquitetura.md](https://github.com/LucasKennari/Catgram/blob/prod/ARQUITETURA.md)
 
+
+# Imagens do projeto:
+
+<details>
+    <summary>Login e Cadastro</summary>
+  <img  width="200px" src="https://i.imgur.com/1AnrOuc.png" alt="Login">
+  
+  <img  width="200px" src="https://imgur.com/qQu1nK5.png" alt="Cadastro">
+
+</details>
+
+<details>
+    <summary>Feed de fotos</summary>
+  <img  width="200px" src="https://imgur.com/U7VpKzh.png" alt="Feed de fotos">
+
+</details>
+
+<details>
+    <summary>Rota de Postagem de Fotos</summary>
+  <img  width="200px" src="https://imgur.com/QCYwaSM.png" alt="Postagem de foto">
+
+</details>
