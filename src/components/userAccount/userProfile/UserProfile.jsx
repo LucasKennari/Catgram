@@ -10,6 +10,7 @@ const UserProfile = () => {
                     <section className='container mainContainer'>
                               <Head title={user} description="Nome do site, com o nome do usuário" />
                               <h1 className='title'>{user}</h1>
+
                               <Feed user={user} />
                     </section>
           )

@@ -28,6 +28,8 @@ const Header = () => {
 
                               <header className={styles.header} >
                                         <nav className={`${styles.nav} container`}>
+
+
                                                   <NavLink to="/" end
                                                             aria-label='Catgram - Home'
                                                             className={styles.logo}>

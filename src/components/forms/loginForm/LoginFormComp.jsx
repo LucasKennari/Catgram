@@ -34,10 +34,7 @@ const LoginFormComp = () => {
 
           return (
                     <>
-                              {/* <div className={styles.iconLogin} >
-                                        <img src="IMG\icons\lucas-03.png" alt="CAT-ICON" />
 
-                              </div> */}
                               <form onSubmit={handleSubmit} className={styles.lgnFormComp}>
 
                                         <TitleForm>Catgram</TitleForm>

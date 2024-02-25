@@ -13,11 +13,13 @@ const FeedModal = ({ photo, setModalPhoto }) => {
                     const { url, options } = PHOTO_GET(photo.id)
                     request(url, options)
           }, [photo, request])
+
           function handleOutsideClick(e) {
                     if (e.target === e.currentTarget) {
                               setModalPhoto(null)
                     }
           }
+
           return (
 
 

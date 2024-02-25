@@ -38,9 +38,7 @@ const UserHeaderNav = () => {
                                         <button onClick={handleMenu} >
                                                   <CloseMenu className={styles.btnImg} />
 
-                                                  {/* <img src="src/assets/icons/iconsNav/seta.svg"
-                                                            alt=""
-                                                            className={styles.btnImg} /> */}
+
                                         </button>
 
                                         <NavLink to='/conta' end>
@@ -54,12 +52,15 @@ const UserHeaderNav = () => {
                                                   {mobile && 'Adicionar Fotos'}
                                         </NavLink>
 
-                                        <NavLink to='/conta/perfil'>
+                                        {/* <NavLink to='/conta/perfil'>
                                                   <Perfil />
                                                   {mobile && 'Editar perfil'}
-                                        </NavLink>
+                                        </NavLink> */}
 
-                                        <button onClick={handleClick}> <Sair />  </button>
+                                        <button onClick={handleClick}>
+                                                  <Sair />
+                                        </button>
+
                               </nav > : <nav id='userHeadNav' className={`${styles.headerNaV} animeParaDireita`}>
                                         <UserIcon />
                               </nav>

@@ -35,20 +35,28 @@ const Feed = ({ user }) => {
           }, [infinity])
 
           return (
-                    <div className={`${styles.feed}`}>
+                    <>
 
-                              {modalPhoto && <FeedModal photo={modalPhoto} setModalPhoto={setModalPhoto} />}
-                              {page.map((page) => {
-                                        return (
-                                                  <FeedPhoto key={page}
-                                                            user={user}
-                                                            page={page}
-                                                            setModalPhoto={setModalPhoto}
-                                                            setInfinity={setInfinity} />
+
+                              <div className={`${styles.feed} container mainContainer`}>
+
+                                        {
+                                                  modalPhoto && <FeedModal photo={modalPhoto} setModalPhoto={setModalPhoto} />
+                                        }
+                                        {page.map((page) => {
+                                                  return (
+                                                            <FeedPhoto key={page}
+                                                                      user={user}
+                                                                      page={page}
+                                                                      setModalPhoto={setModalPhoto}
+                                                                      setInfinity={setInfinity} />
+                                                  )
+                                        }
                                         )
-                              }
-                              )}
-                    </div>
+                                        }
+                              </div>
+
+                    </>
           )
 }
 Feed.defaultProp = {
