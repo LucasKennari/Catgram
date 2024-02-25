@@ -24,11 +24,11 @@ O Catgram é uma Rede Social para gatos inspirado no Instagram.
 > [!IMPORTANT]
 > #### Para fazer um FORK ou CONTRIBUIR, Leia:
 > **Acesse:** 
-> [Contribuindo.md](https://github.com/LucasKennari/Catgram/blob/prod/CONTRIBUINDO.md)
+> [Contribuindo.md](./CONTRIBUINDO.md)
 > 
 > #### Leia a documentação de Estrutura:
 > **Acesse:** 
-> [Arquitetura.md](https://github.com/LucasKennari/Catgram/blob/prod/ARQUITETURA.md)
+> [Arquitetura.md](./ARQUITETURA.md)
 
 
 # Imagens do projeto:
