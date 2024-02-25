@@ -1,5 +1,5 @@
 # Contribuindo.
->[!IMPORTANT]
+>[!WARNING]
 > - [Como o projeto está estruturado?](./ARQUITETURA.md)
 
 ## Testando na sua máquina:
@@ -17,7 +17,8 @@
 6. Faça um push da sua branch: `git push origin my-new-feature` 
 7. Envie um Pull Request para esse repositório
 
-**Adicione um titulo e uma descrição bem clara sobre sua sugestão**
+> [!IMPORTANT]
+> **Adicione um titulo e uma descrição bem clara sobre sua sugestão**
 
 **Depois que seu pull request for mergeado**
 
