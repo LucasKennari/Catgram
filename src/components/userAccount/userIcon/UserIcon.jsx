@@ -20,7 +20,7 @@ const UserIcon = () => {
                     <>
                               {menu ? <UserHeaderNav /> :
                                         (<div className={styles.UserIcon}>
-                                                  <img src="./src/assets/icons/iconUsuario/iconUsuario.svg" alt="icon" onClick={handleClick} />
+                                                  <img src="https://imgur.com/xvntFfQ.png" alt="icon" onClick={handleClick} />
 
                                         </div>)
                               }

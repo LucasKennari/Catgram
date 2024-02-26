@@ -2,8 +2,11 @@ import React from 'react'
 import styles from './header.module.css'
 import { userContext } from '../../useHooks/useContext'
 import { NavLink } from 'react-router-dom'
+
 import IconHeader from "../../assets/icons/iconHeader/iconHeader.svg?react"
 import UserIcon from '../userAccount/userIcon/UserIcon'
+
+
 const Header = () => {
 
           const [menu, setMenu] = React.useState(false)
@@ -40,7 +43,8 @@ const Header = () => {
                                                             <NavLink to="conta" end
                                                                       className={styles.login} >
 
-                                                                      <UserIcon />
+
+                                                                      {<UserIcon />}
 
                                                             </NavLink> :
 

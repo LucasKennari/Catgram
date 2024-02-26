@@ -1,13 +1,12 @@
 .UserIcon {
-          display: inline-block;
-          width: 40px;
-          border-radius: 50%;
-          margin-left: 0.5rem;
-          position: relative;
-          top: -1px;
-        }
-        .UserIcon:hover,
-        .UserIcon:focus {
-          border: 2px solid aliceblue;
-        }
-        
+     display: inline-block;
+     width: 40px;
+     border-radius: 40%;
+     margin-left: 0.5rem;
+     position: relative;
+     top: -1px;
+}
+.UserIcon:hover,
+.UserIcon:focus {
+     border: 2px solid aliceblue;
+}
