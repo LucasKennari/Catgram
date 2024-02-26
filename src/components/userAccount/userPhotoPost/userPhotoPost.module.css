@@ -1,28 +1,29 @@
-/* .photoPost {
-  display: flex;
-  justify-content: center;
-  background: rgb(46, 41, 49);
-  padding: 2rem;
-  border-radius: 20px;
+.photoPost {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+     margin-bottom: 2rem;
 }
-.photoPost button {
-  display: flex;
-  justify-content: center;
-} */
+
+@media (max-width: 40rem) {
+     .photoPost {
+          grid-template-columns: 1fr;
+     }
+}
 
 .file {
-          color: aliceblue;
-          font-weight: bold;
-          margin-top: 1rem;
-          margin-bottom: 1rem;
-          padding: 3px;
-          background: #6f43c0;
-          border-radius: 4px;
-          border: 1px solid #6f43c0;
-          background-size: cover;
-        }
-        
-        /* .file button {
+     color: aliceblue;
+     font-weight: bold;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     padding: 3px;
+     background: #6f43c0;
+     border-radius: 4px;
+     border: 1px solid #6f43c0;
+     background-size: cover;
+}
+
+/* .file button {
           padding: 3px;
           font-weight: bold;
         }
@@ -31,34 +32,25 @@
           font-weight: bold;
           background: #6f43c0;
         } */
-        
-        .preview {
-          border-radius: 1rem;
-          background-size: cover;
-          background-position: center center;
-        }
-        
-        .photoPost {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 2rem;
-          margin-bottom: 2rem;
-          background-size: cover;
-        }
-        .photoPost #img {
-                  margin-bottom: 1rem;
-                  background-size: cover;
-        
-        }
-        .preview::after {
-          content: "";
-          display: block;
-          height: 0px;
-          padding-bottom: 100%;
-        }
-        
-        @media (max-width: 40rem) {
-                  .photoPost{
-                            grid-template-columns: 1fr;
-                  }
-        }
+
+.preview {
+     border-radius: 1rem;
+     background-size: cover;
+     background-position: center center;
+}
+/* 
+.photoPost #img {
+     /* height: 10px;
+     margin-bottom: 1rem;
+     background-size: cover;
+     background-position: center center; 
+}*/
+
+.preview::after {
+     content: "";
+     display: block;
+     height: 0px;
+     padding-bottom: 100%;
+     background-size: cover;
+     background-position: center center;
+}

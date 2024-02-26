@@ -10,7 +10,7 @@ const FeedPhotosItem = ({ photo, setModalPhoto }) => {
 
                               <ImgSkeleton src={photo.src} alt={photo.title} />
 
-                              {/* <img src={photo.src} alt={photo.title} className={styles.img} /> */}
+
                               <span className={styles.view}>{photo.acessos}</span>
                     </li>
           )

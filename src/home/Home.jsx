@@ -5,7 +5,7 @@ import Feed from '../components/feed/feed/Feed'
 const Home = () => {
 
           return (
-                    <section className='container mainContainer'>
+                    <section className='container '>
                               <Head title="Feed" description="Nome do site, com o feed de fotos" />
                               <Feed />
                     </section>

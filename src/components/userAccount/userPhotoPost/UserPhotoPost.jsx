@@ -1,14 +1,20 @@
 import React from 'react'
 import styles from './userPhotoPost.module.css'
+
 import useForm from '../../../useHooks/useForm'
 import useFetch from '../../../useHooks/useFetch'
+
+import { PHOTO_POST } from '../../../api/api'
+
 import { ToastContainer, toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom'
-import { PHOTO_POST } from '../../../api/api'
+
 import Loading from '../../helper/loading/Loading'
 import Head from '../../helper/head/Head'
+
 import InputForm from '../../forms/inputForm/InputForm'
 import BtnForm from '../../forms/btnForm/BtnForm'
+
 const UserPhotoPost = () => {
           const nome = useForm()
           const peso = useForm('number')
@@ -70,6 +76,7 @@ const UserPhotoPost = () => {
                                                   <InputForm texto='Idade' type='number' name='idade' {...idade} />
 
                                                   <input type='file' name='img' id='img' onChange={handleImgChange} className={styles.file} />
+
                                                   <BtnForm>ENVIAR</BtnForm>
                                         </form>
                               }

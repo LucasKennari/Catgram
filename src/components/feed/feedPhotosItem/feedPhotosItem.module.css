@@ -1,55 +1,59 @@
 .photo:nth-child(2) {
-          grid-column: 2/4;
-          grid-row: span 2;
-        }
-        
-        @media (max-width: 40rem) {
-          .photo:nth-child(2) {
-            grid-column: initial;
-            grid-row: initial;
-          }
-        }
-        
-        .photo {
-          border-radius: 1rem;
-        
-          display: grid;
-          overflow: hidden;
-          cursor: pointer;
-        }
-        
-        .photo > div {
-          border-radius: 1rem;
-          grid-area: 1/1;
-        }
-        
-        .view {
-          display: none;
-          align-items: center;
-          justify-content: center;
-        
-          grid-area: 1/1;
-          backdrop-filter: blur(4px);
-        
-          font-size: 1rem;
-          text-align: center;
-          background: rgba(54, 54, 54, 0.603);
-          color: aliceblue;
-        }
-        
-        .view::before {
-          width: 16px;
-          height: 10px;
-          content: "";
-          display: inline-block;
-          margin-right: 0.25rem;
-          background: url("../../../assets/icons/iconPhotoPreview/visualizacao.svg") no-repeat;
-        }
-        
-        .photo:hover span {
-          display: flex;
-          border-radius: 1rem;
-          border: 1px solid #6a4ea6;
-          box-shadow: #6a4ea6 0px 0px 5px 0px;
-        }
-        
+     grid-column: 2/4;
+     grid-row: span 2;
+}
+
+@media (max-width: 40rem) {
+     .photo:nth-child(2) {
+          grid-column: initial;
+          grid-row: initial;
+     }
+}
+
+.photo {
+     display: grid;
+     border-radius: 1rem;
+
+     overflow: hidden;
+     cursor: pointer;
+}
+
+.photo > div {
+     border-radius: 1rem;
+     grid-area: 1/1;
+}
+
+.view {
+     display: none;
+     align-items: center;
+     justify-content: center;
+
+     grid-area: 1/1;
+     backdrop-filter: blur(4px);
+
+     font-size: 1rem;
+     text-align: center;
+     background: rgba(54, 54, 54, 0.603);
+     color: aliceblue;
+}
+
+.view::before {
+     width: 16px;
+     height: 10px;
+     content: "";
+     display: inline-block;
+     margin-right: 0.25rem;
+     background: url("../../../assets/icons/iconPhotoPreview/visualizacao.svg")
+          no-repeat;
+}
+
+/* .photo:hover span {
+     height: auto;
+     display: flex;
+     border-radius: 1rem;
+     border: 1px solid #6a4ea6;
+     box-shadow: #6a4ea6 0px 0px 5px 0px;
+} */
+.photo:hover .view {
+     display: flex;
+}

@@ -1,15 +1,13 @@
 .ulPhotos {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 1rem;
-          margin-bottom: 1rem;
-          justify-items: center;
-          background-size: cover;
-        
-        }
-        @media (max-width: 40rem) {
-          .ulPhotos {
-            grid-template-columns: repeat(1, 1fr);
-          }
-        }
-        
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1rem;
+     margin-bottom: 1rem;
+     justify-items: center;
+     background-size: cover;
+}
+@media (max-width: 40rem) {
+     .ulPhotos {
+          grid-template-columns: repeat(1, 1fr);
+     }
+}
