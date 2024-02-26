@@ -43,7 +43,7 @@ O Catgram é uma Rede Social para gatos inspirado no Instagram.
 
 <details>
     <summary>Feed de fotos</summary>
-  <img  width="200px" src="https://imgur.com/U7VpKzh.png" alt="Feed de fotos">
+  <img  width="200px" src="https://imgur.com/undefined.png" alt="Feed de fotos">
 
 </details>
 
